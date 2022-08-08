@@ -1,0 +1,16 @@
+{
+  "blogs":[
+    {
+      "title": "My website",
+      "author": "mario",
+      "image": "01.jpg",
+      "id": 1
+    },
+    {
+      "title": "My passion",
+      "author": "luigi",
+     "id": 2
+
+    }
+  ]
+}
