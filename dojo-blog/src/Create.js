@@ -42,17 +42,22 @@ const Create = () => {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         ></input>
+
         <label>blog body:</label>
+
         <textarea
           required
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
+
         <label>Blog author: </label>
+
         <select value={author} onChange={(e) => setAuthor(e.target.value)}>
           <option value="mario">mario</option>
           <option value="yoshi">yoshi</option>
         </select>
+
         {!isPending && <button>create</button>}
         {isPending && <button disabled>adding...</button>}
       </form>
